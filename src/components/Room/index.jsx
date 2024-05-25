@@ -1,9 +1,14 @@
 import "./style.css";
 
-export const Room = ({ image, name, price }) => {
+export const Room = ({ image, name, price, onSelect, id }) => {
   return (
     <>
-      <div className="card">
+      <div
+        className="card"
+        onClick={() => {
+          onSelect(id);
+        }}
+      >
         <img
           className="card__image"
           src={`http://localhost:4000/assets/rooms/${image}`}

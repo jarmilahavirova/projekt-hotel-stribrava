@@ -1,7 +1,7 @@
 import { Room } from "../Room";
 import "./style.css";
 
-export const Rooms = ({ rooms }) => {
+export const Rooms = ({ rooms, onSelect }) => {
   return (
     <section className="dark">
       <div className="container">
@@ -16,6 +16,8 @@ export const Rooms = ({ rooms }) => {
                   name={room.name}
                   price={room.price}
                   image={room.image}
+                  onSelect={onSelect}
+                  id={room.id}
                 />
               );
             })}
