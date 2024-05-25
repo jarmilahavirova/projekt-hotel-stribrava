@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "room": "Úkryt",
+    "dateFrom": "2024-05-27",
+    "dateTo": "2024-05-29",
+    "people": 5,
+    "nights": 2,
+    "pet": true,
+    "childBed": true,
+    "catering": "700",
+    "finalPrice": 11837.5,
+    "email": "pip.cz@seznam.cz",
+    "phone": "+420 606 169 113",
+    "status": "new"
+  }
+]

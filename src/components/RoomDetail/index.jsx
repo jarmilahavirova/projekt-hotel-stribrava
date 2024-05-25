@@ -13,7 +13,7 @@ export const RoomDetail = ({ room }) => {
             <img src={`http://localhost:4000/assets/rooms/${room.image}`} />
             <p>{room.description}</p>
           </div>
-          <Form />
+          <Form price={room.price} room={room.name} />
         </div>
       </div>
     </section>
